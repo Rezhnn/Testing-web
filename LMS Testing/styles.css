@@ -1,0 +1,72 @@
+/* Reset default browser styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Nav */
+nav ul {
+    background-color: #333;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Main */
+main {
+    padding: 20px;
+}
+
+.section-home, .section-courses, .section-schedule, .section-grades, .section-other {
+    display: none;
+}
+
+.section-home {
+    display: block;
+}
+
+/* Footer */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Sections */
+.section-home, .section-courses, .section-schedule, .section-grades, .section-other {
+    margin-bottom: 20px;
+}

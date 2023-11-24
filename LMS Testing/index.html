@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LMS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>LMS Prototype</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="Course.html">Konten Belajar</a></li>
+            <li><a href="Schedule.html">Jadwal</a></li>
+            <li><a href="Grade.html">Nilai</a></li>
+            <li><a href="Lainnya.html">Lainnya</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section class="section-home">
+            <h2>Beranda</h2>
+            <p>Selamat datang, Siapapun yang akses! Semangat untuk hari ini!</p>
+        </section>
+        <section class="section-courses">
+            <h2>Konten Belajar</h2>
+            <p>Lihat konten belajar di bawah ini:</p>
+            <ul>
+                <li>Buku Digital</li>
+                <li>Video</li>
+            </ul>
+        </section>
+        <section class="section-schedule">
+            <h2>Jadwal</h2>
+            <p>Tidak ada jadwal pada hari ini.</p>
+        </section>
+        <section class="section-grades">
+            <h2>Nilai</h2>
+            <p>Jumlah ujian yang telah dikerjakan: 0</p>
+        </section>
+        <section class="section-other">
+            <h2>Lainnya</h2>
+            <p>Kunjungi lab digital kami di bawah ini:</p>
+            <ul>
+                <li><a href="#">Lab Digital</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Zephyr. All rights reserved.</p>
+    </footer>
+    <div id="login-popup" style="display: none;">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
